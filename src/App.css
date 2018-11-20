@@ -1,0 +1,66 @@
+.album, .photo{
+    position: relative;
+}
+.album:hover{
+    cursor: pointer;
+}
+.album:hover, .photo:hover{
+    text-decoration: none;
+}
+.album_img, .photo_img{
+    width: 100%;
+    height: 200px;
+    position: relative;
+}
+.album .album_img:before{
+    content: "";
+    position: absolute;
+    background-color: rgba(0,0,0,0.3);
+    width: 100%;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+.photo .photo_img:before{
+    content: "";
+    position: absolute;
+    background-color: rgba(0,0,0,0);
+    width: 100%;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+.album:hover .album_img:before,
+.photo:hover .photo_img:before{
+    background-color: rgba(0,0,0,0.5);
+}
+.caption.album_caption{
+    position: absolute;
+    top: 0;
+}
+.caption.album_caption{
+    color: white;
+}
+.album:hover .album_caption{
+    color: white;
+}
+.popup {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    background-color: rgba(0,0,0, 0.5);
+}
+.popup_inner {
+    display: block;
+}
+.popup .modal-body{
+    max-height: 70vh;
+    overflow-y: scroll;
+}

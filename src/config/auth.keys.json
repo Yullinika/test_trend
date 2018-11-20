@@ -1,0 +1,13 @@
+{
+  "web": {
+    "client_id": "77462413785-6espfrkd61nulv9tbg8ejhajjupitmc1.apps.googleusercontent.com",
+    "project_id": "albums-221213",
+    "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+    "token_uri": "https://www.googleapis.com/oauth2/v3/token",
+    "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+    "client_secret": "RJJFIFSx6Ns6I5Hu02sfv-3-",
+    "javascript_origins": [
+      "http://localhost:3000"
+    ]
+  }
+}
